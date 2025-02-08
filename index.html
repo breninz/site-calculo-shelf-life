@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/reset.css">
+    <script src="assets/script.js"></script>
+    
+    <title>Cálculo Shelf-Life de Produto</title>
+
+</head>
+<body>
+    <div class="containter">
+        <h1>Cálculo de Shelf Life de Material</h1>
+        <p>Olá! Seja bem vindo, <br>Calcule o shelf-life do seu produto abaixo</p>
+        <!-- Inserir as datas de fabricação e validade -->
+        <div class="content">
+        <label for="dataFabricacao">Data de Fabricação:</label>
+        <input type="date" id="dataFabricacao" required> <br> <br>
+
+        <label for="dataValidade">Data de Validade:</label>
+        <input type="date" id="dataValidade" required> <br> <br>
+
+        <!-- Formulário-->
+
+        <div style="text-align: center;"></div>
+            <button onclick="calcularShelfLife()" style="margin-right: 20px;">Calcular Shelf-Life</button>
+            <button onclick="calcularPorcentagem()" style="margin-right: 20px;">Calcular Porcentagem</button> 
+            <button onclick="limpar()" style="margin-bottom: 20px;">Limpar Campos</button>
+            <h2>Resultados:</h2>
+            <p id="resultadoShelflife"></p>
+            <p id="resultadoPorcentagem"></p>
+            <div id="resultadosAdicionais">
+        </div>
+    </div>
+
+        
+    </div>
+
+</body>
+</html>
