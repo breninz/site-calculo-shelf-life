@@ -40,6 +40,6 @@ function limpar() {
     document.getElementById("dataValidade").value = "";
     
         // Limpar resultados
-    document.getElementById("resultadoShelflife").textContent = "";
+    document.getElementById("resultadoShelfLife").textContent = "";
     document.getElementById("resultadoPorcentagem").textContent = "";
 }
