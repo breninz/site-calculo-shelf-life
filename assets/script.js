@@ -33,3 +33,13 @@ function calcularPorcentagem() {
         `Shelf Life consumido: ${porcentagemConsumida.toFixed(2)}%\n` +
         `Shelf Life restante: ${porcentagemRestante.toFixed(2)}%`;
 }
+
+function limpar() {
+        // Resetar campos de data
+    document.getElementById("dataFabricacao").value = "";
+    document.getElementById("dataValidade").value = "";
+    
+        // Limpar resultados
+    document.getElementById("resultadoShelflife").textContent = "";
+    document.getElementById("resultadoPorcentagem").textContent = "";
+}
