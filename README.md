@@ -1,13 +1,11 @@
 # Projeto de Cálculo de Shelf Life
 
-Este projeto tem como objetivo calcular o shelf life de produtos, ajudando a determinar a validade e a segurança dos mesmos. Atualmente, estamos na **primeira versão** do projeto.
-
-# Onde surgiu a ideia?
-A ideia surgiu em meu atual trabalho de comprador, preciso checar as validades dos materiais antes de recebe-los, pois existem clientes que só aceitam o produto com uma % em Shelf-Life.
+Este projeto tem como objetivo calcular o shelf life de produtos, ajudando a determinar a validade e a segurança dos mesmos.
+A inspiração para este projeto surgiu da necessidade prática na área de compras, onde a verificação do percentual de vida útil restante dos materiais é crucial antes do recebimento, visto que muitos clientes possuem requisitos rigorosos quanto a isso.
 Ao invés de fazer cálculos e mais cálculos para identificação do percentual do Shelf-Life, o usuário só insere as datas de fabricação e validade que será feito o cálculo automaticamente, otimizando tempo e precisão na resposta.
 
-# Quem pode utilizar?
-Qualquer usuário , desde que atue com ética e integridade.
+![Project Screenshot](assets/screenshot.png?raw=true "Project Screenshot")
+*(Please replace this with a screenshot of the application in action. You can name your image `screenshot.png` and place it in the `assets` folder.)*
 
 ## Funcionalidades
 
@@ -21,7 +19,7 @@ Qualquer usuário , desde que atue com ética e integridade.
 2. Execute o cálculo.
 3. Visualize o resultado abaixo.
 
-# Tecnologias Utilizadas
+## Tecnologias Utilizadas
 HTML, CSS e JavaScript básico
 
 ## Contribuições
